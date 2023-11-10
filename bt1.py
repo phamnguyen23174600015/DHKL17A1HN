@@ -1,0 +1,8 @@
+so_1=float(input("số thứ nhất: "))
+so_2=float(input("số thứ hai: "))
+so_3=float(input("số thứ ba: "))
+so_4= float(input("số thứ tư: "))
+so_lon_nhat= max(so_1, so_2, so_3, so_4)
+so_nho_nhat=min(so_1, so_2, so_3, so_4)
+print(f"số lớn nhất là:{so_lon_nhat}")
+print(f"số nhỏ nhất là:{so_nho_nhat}")
